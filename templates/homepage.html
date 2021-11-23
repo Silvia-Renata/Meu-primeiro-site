@@ -3,9 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Homepage</title>
+    <style>position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 40px;
+			right: 40px;
+			background-color: #25d366;
+			color: #fff;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 1px 1px 2px #888;
+			z-index: 1000;
+    </style>
+
 </head>
 <body>
-<p>Delícias Geladas</p>
-<p>Basta escolher o sabor e se deliciar</p>
+ <div class="card-content">
+
+                    <div class="card-content-area">
+
+                        <label for="usuario">Usuário</label>
+
+                        <input type="text" id="usuario" autocomplete="off">
+
+                    </div>
+
+                    <div class="card-content-area">
+
+                        <label for="password">Senha</label>
+
+                        <input type="password" id="password" autocomplete="off">
+
+                    </div>
+
+                </div>
+
+                <div class="card-footer">
+
+                    <input type="submit" value="login" class="submit">
+
+                    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+
+                </div>
+
+            </form>
+
+        </div>
+</form>
 </body>
+    <div id="topo">
+
+	<div class="logo">
+	</div><!-- fim logo -->
+        <div id="fundo_balas_gourmet">
+<div class="box_img1">
+</div><! fim box img1 -->
+
+<div class="box_txt1">
+  <p>Balas de coco tradicionais com diversos sabores!</p>
+  <p>Quantidade da Embalagem 250g valor de R$ 13,00 Reais.</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+<p><strong>&nbsp;Sabores de Côco Natural, Morango, Chocalate, Blue Ice e Abacaxi</strong></p>
+<p>&nbsp;</p>
+
+</div><!-- fim box txt1 -->
+            </div><!-- fim box txt1 -->
+
+<div class="regua">
+	</div><!-- fim regua -->
+
+	<div class="grupo_fotos">
+	</div><! fim grupos fotos -->
+<div class="rodape">
+	 </div><!-- fim rodape -->
+
+</div><!-- fim fundo Balas Gourmet -->
+
+<div id="balas_recheadas">
+<div class="box_img3">
+</div><! fim box img3 -->
+
+<div class="box_txt2">
+  <p>Balas de coco tradicionais com diversos sabores!</p>
+  <p>Quantidade da Embalagem 250g valor de R$ 13,00 Reais.</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+<p><strong>&nbsp; Sabores de Côco Natural, Morango, Chocalate, Blue Ice e Abacaxi</strong></p>
+<p>&nbsp;</p>
+
+</div><!-- fim box txt2 -->
+
+<div class="regua2">
+	</div><!-- fim regua -->
+
+	<div class="grupo_fotos2">
+        <img src="{{ url_for('static', filename='COCO TRADICIONAL.JPEG')}}">
+
+    </div><! fim grupos fotos -->
+<div class="rodape">
+	 </div><!-- fim rodape -->
+
+</div><!-- fim Fundo Balas Recheadas -->
+
 </html>

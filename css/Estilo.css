@@ -1,0 +1,458 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "century ghotic";
+	line-height: 20px;
+	font-size: 14px;
+	color:#1D1D1D;
+}
+
+
+
+#topo {
+	background:url( "../../../Documentos/Site sem nome 2/TOPO 3.png");
+	width:1118px;
+	height:163px;
+	border-bottom:10px solid #2D386E;
+	margin:auto;
+}
+
+a:hover {
+	color:palevioletred;
+}
+
+.logo {
+	float:left;
+	background:url( "../../../Documentos/Site sem nome 2/WhatsApp Image 2021-10-31 at 12.44.56.jpeg");
+	width:244px;
+	height:230ps;
+	position:relative;
+	margin:40px 0 0 15px;
+}
+
+
+#topo .menu ul {
+	position:relative;
+	float:right;
+	margin:-40px 25px 0 100px;
+	}
+
+#topo .menu ul li {
+	display:inline;
+	padding:10px 0 0 60px;
+	float:none;
+}
+
+
+#topo .menu ul li a {
+	color:#D70B5E;
+	text-decoration:none;
+}
+
+#topo .menu ul li a:hover {
+	text-decoration:underline;
+	color:brown;
+}
+
+#topo .menu ul li .Balas_Goumet {
+	color:#F34141;
+	font-weight:bold;
+}
+* CSS reset */
+*, *:before, *:after { 
+  margin:0;
+  padding:0;
+  font-family: Arial,sans-serif;
+	
+/* remove a linha dos links */
+a{
+  text-decoration: none;
+}
+ 
+/* esconde as ancoras da tela */
+a.links{
+  display:block;
+}
+
+.container{
+  width: 150px;
+  min-height: 150px;    
+  margin: 0px auto;
+  position: relative;   
+}
+h1{
+  font-size: 40px;
+  color: #066a75;
+  padding: 2px 0 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 25px;
+}
+h1:after{
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+  background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+}
+
+p{
+  margin-bottom:15px;
+}
+ 
+.content p:first-child{
+  margin: 0px;
+}
+ 
+label{
+  color: #405c60;
+  position: relative;
+}
+
+/* placeholder */
+::-webkit-input-placeholder  {
+  color: #bebcbc; 
+  font-style: italic;
+}
+ 
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+  font-style: italic;
+}
+input {
+  outline: none;
+}
+ 
+/*estilo dos input,  menos o checkbox */
+input:not([type="checkbox"]){
+  width: 90%;
+  margin-top: 2px;
+  padding: 10px;    
+  border: 2px solid #b2b2b2;
+ 
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+ 
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+ 
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+ 
+/*estilo do botão submit */
+input[type="submit"]{
+  width: 100%!important;
+  cursor: pointer;  
+  background: rgb(61, 157, 179);
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;  
+  border: 2px double #E50544;   
+  margin-bottom:auto;  
+  text-shadow: 0 1px 1px #333;
+ 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+ 
+  transition: all 0.2s linear;
+}
+ 
+/*estilo do botão submit no hover */
+input[type="submit"]:hover{
+  background: #D32073;
+}
+
+.link{
+  position: relative;
+  background: #E11B8A;
+  color: #7f7c7c;
+  left: 0px;
+  height: 20px;
+  width: 300px;
+  padding: 15px 28px 15px 28px;
+  font-size: 16px;
+  text-align:right;
+  border-top: 1px relative #dbe5e8;
+ 
+  -webkit-border-radius: 2px 2px  5px 5px;
+  border-radius: 5px 5px  10px 10px;
+}
+ 
+.link a {
+  font-weight: bold;
+  background: #802C4E;
+  padding: 8px;
+  color: rgb(29, 162, 193);
+  margin-left: 10px;
+  border: 1px solid #cbd518;
+ 
+  -webkit-border-radius: 8px;
+  border-radius: 8px;  
+ 
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s  linear;
+}
+ 
+.link a:hover {
+  color: #39bfd7;
+  background: #f7f7f7;
+  border: 4px relative #4ab3c6;
+}
+
+#cadastro, 
+#login{
+  position: relative;
+  top: 0px;
+  width: 50%;   
+  padding: 18px 6% 60px 6%;
+  margin: 0 0 35px 0;
+  background: #434343;
+  border: 1px solid rgba(147, 184, 189,0.8);
+   
+  -webkit-box-shadow: 5px;
+  border-radius: 8px;
+   
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+ 
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+/* Efeito ao clicar no botão ( Ir para Login ) */
+#paracadastro:target .content #cadastro,
+#paralogin:target .content #login {
+  z-index: 2;
+  webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+ 
+  webkit-animation-delay: .2s;
+  animation-delay: .2s;
+}
+ 
+/* Efeito ao clicar no botão ( Cadastre-se ) */
+#registro:target ~ .content #login,
+#paralogin:target ~ .content #cadastro {
+  webkit-animation-name: FadeInLeft;
+  animation-name: fadeOutLeft;
+}
+
+/*fadeInLeft*/
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    webkit-transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    webkit-transform: translateX(1px);
+  }
+}
+ 
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+	
+	}
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+ 
+/*fadeOutLeft*/
+@-webkit-keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    webkit-transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    webkit-transform: translateX(-20px);
+  }
+}
+ 
+@keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+
+/* Incio da balas geladas */
+
+#fundo_balas_gourmet {
+	width:1118px;
+	height:1000px;
+	margin:10px auto 20px auto;
+	background-color:whitesmoke;
+}
+
+.box_img1 {
+	background:url( "../../../Documentos/Site sem nome 2/COCO TRADICIONAL.jpeg");
+	width:250px;
+	height:250px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+
+.box_txt1 {
+	width:250px;
+	height:250px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+.box_txt1 h1 {
+	font-weight:bold;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.box_txt1 p {
+	text-align:justify;
+}
+
+.box_txt1 a {
+	text-decoration:none;
+	color:#C72B79;
+}
+
+.box_txt1 a:hover {
+	text-decoration: underline
+	color:#C73B76;
+}
+
+
+
+.regua {
+ 	width:1100px;
+	margin:auto;
+	border:5px ridge #D711B1;
+	clear:both;
+}
+	
+.grupo_fotos {
+	background:url( "../../../Documentos/Site sem nome 2/sabores.png");
+	width:693px;
+	height:336px;
+	float:center;
+	margin:auto;	
+}
+
+.rodape {
+	width:1109px;
+	height:84px;
+	margin:20px auto;
+	clear:both;
+	background:url( "../../../Documentos/Site sem nome 2/TOPO 4.png");
+}
+	
+/* fim da página incial */
+
+/* Inicio da Pagina Balas Recheadas */
+
+#fundo_balas_gourmet {
+	width:1118px;
+	height:1000px;
+	margin:10px auto 20px auto;
+	background-color:whitesmoke;
+}
+
+.box_img3 {
+	background:url( "../../../Documentos/Site sem nome 2/LEITE CONDENSADO.jpeg");
+	width:250px;
+	height:212px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+
+.box_txt2 {
+	width:250px;
+	height:250px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+.box_txt2 h1 {
+	font-weight:bold;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.box_txt2 p {
+	text-align:justify;
+}
+
+.box_txt2 a {
+	text-decoration:none;
+	color:#C72B79;
+}
+
+.box_txt2 a:hover {
+	text-decoration: underline
+	color:#C73B76;
+}
+
+
+
+.regua2 {
+ 	width:1100px;
+	margin:auto;
+	border:5px ridge #D711B1;
+	clear:both;
+}
+	
+.grupo_fotos2 {
+	background:url( "../../../Documentos/Site sem nome 2/grupo 2.jpg");
+	width:693px;
+	height:336px;
+	float:center;
+	margin:auto;	
+}
+
+
+html,body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.hero.is-success {
+  background: #f2f7fa;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+input {
+  font-weight: 300;
+}
+p {
+  font-weight: 700;
+}
+
+
+.rodape {
+	width:1109px;
+	height:84px;
+	margin:20px auto;
+	clear:both;
+	background:url( "../../../Documentos/Site sem nome 2/TOPO 4.png");
+}
+	
